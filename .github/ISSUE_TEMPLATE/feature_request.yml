@@ -1,0 +1,32 @@
+name: "💡 Feature Request"
+description: "Suggest an improvement or new feature for FPS"
+title: "[FEATURE]: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: "Have an idea to make photo culling faster? Let us know!"
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: "Workflow Problem / Bottleneck"
+      placeholder: "Is your request related to a friction point or slowdown in your current culling workflow?"
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: "Proposed Solution"
+      placeholder: "Describe how you envision the feature working (UI elements, keyboard shortcuts, interaction behavior)."
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: "Alternatives Considered"
+      placeholder: "Describe any alternative solutions or workarounds you have considered."
+    validations:
+      required: false
