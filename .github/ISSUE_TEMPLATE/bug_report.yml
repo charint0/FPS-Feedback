@@ -1,0 +1,59 @@
+name: "🐛 Bug Report"
+description: "Report an issue, crash, or rendering bug in FPS"
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for taking the time to report an issue!"
+
+  - type: input
+    id: version
+    attributes:
+      label: "FPS Version"
+      placeholder: "e.g., v0.4.1"
+    validations:
+      required: true
+
+  - type: input
+    id: environment
+    attributes:
+      label: "Operating System & Display Setup"
+      placeholder: "e.g., Windows 11 23H2, 4K Display @ 150% DPI scaling"
+    validations:
+      required: true
+
+  - type: input
+    id: camera_file
+    attributes:
+      label: "Camera Model / File Type"
+      placeholder: "e.g., Sigma SDQH / .X3F format"
+    validations:
+      required: false
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Steps to Reproduce"
+      placeholder: |
+        1. Open folder containing X3F files
+        2. Zoom in quickly using mouse wheel
+        3. Observe crash or rendering artifact
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_vs_actual
+    attributes:
+      label: "Expected vs. Actual Behavior"
+      placeholder: "Describe what should happen vs. what actually happened."
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: "Screenshots or Additional Context"
+      placeholder: "Drag and drop screenshots, paste crash logs, or add any extra details here."
+    validations:
+      required: false
