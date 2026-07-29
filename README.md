@@ -6,7 +6,7 @@ This repository is dedicated to tracking **bug reports**, **feature requests**, 
 
 ---
 
-## 📢 Current Beta Release: v1.0.0-beta
+## 📢 Current Beta Release: v0.9.7.0-beta
 
 ### 🌟 What's New in This Release:
 * **X3F Post-Processing:** Configurable **Denoise** and **Unsharp Mask** settings for X3F image decoding *(disabled by default for speed)*.
