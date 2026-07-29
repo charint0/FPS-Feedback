@@ -6,6 +6,15 @@ This repository is dedicated to tracking **bug reports**, **feature requests**, 
 
 ---
 
+## 📢 Current Beta Release: v1.0.0-beta
+
+### 🌟 What's New in This Release:
+* **X3F Post-Processing:** Configurable **Denoise** and **Unsharp Mask** settings for X3F image decoding *(disabled by default for speed)*.
+* **UI Redesign:** Histogram and EXIF Metadata moved to the right panel for better preview area and ergonomics.
+* **New Windows Installer:** Replaced manual ZIP extractions with a clean `.exe` setup package.
+
+---
+
 ## 🚀 How to Submit Feedback
 
 To keep issues organized and easy to track, please use the **[Issues](../../issues)** tab.
