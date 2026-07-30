@@ -6,13 +6,13 @@ This repository is dedicated to tracking **bug reports**, **feature requests**, 
 
 ---
 
-## 📢 Current Beta Release: v0.9.7.0-beta
+## 📢 Current Beta Release: v0.9.8.0-beta
 
 ### 🌟 What's New in This Release:
-* **X3F Post-Processing:** Configurable **Denoise** and **Unsharp Mask** settings for X3F image decoding *(disabled by default for speed)*.
-* **UI Redesign:** Histogram and EXIF Metadata moved to the right panel for better preview area and ergonomics.
-* **New Windows Installer:** Replaced manual ZIP extractions with a clean `.exe` setup package.
-
+* **X3F Post-Processing:** Fixed Sharpen amout settings (previously was not working and fixed to 1.0)
+* **UI Redesign:** Subtle UI changes for better preview area and ergonomics.
+* **Improved Decoding Performance:** Eploiting parallelism for more decoding algorithms.
+  
 ---
 
 ## 🚀 How to Submit Feedback
