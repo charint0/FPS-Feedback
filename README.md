@@ -8,10 +8,10 @@ This repository is dedicated to tracking **bug reports**, **feature requests**, 
 
 ## 📢 Current Beta Release: v0.9.24.0-beta
 
-<> ### 🌟 What's New in This Release:
-<> * **X3F Post-Processing:** Fixed Sharpen amout settings (previously was not working and fixed to 1.0)
-<> * **UI Redesign:** Subtle UI changes for better preview area and ergonomics.
-<> * **Improved Decoding Performance:** Eploiting parallelism for more decoding algorithms.
+<!-- ### 🌟 What's New in This Release: -->
+<!-- * **X3F Post-Processing:** Fixed Sharpen amout settings (previously was not working and fixed to 1.0) -->
+<!-- * **UI Redesign:** Subtle UI changes for better preview area and ergonomics. -->
+<!-- * **Improved Decoding Performance:** Eploiting parallelism for more decoding algorithms. -->
   
 ---
 
