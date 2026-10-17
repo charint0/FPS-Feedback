@@ -5,15 +5,27 @@ Welcome to the feedback repository for **FPS**, a high-performance Windows deskt
 This repository is dedicated to tracking **bug reports**, **feature requests**, and **performance feedback**.
 
 ---
-## 📢 Coming soon: First Release: v1.0.0 !
+
+## About FPS
+
+FPS is a fast Windows desktop app for culling and reviewing photos,
+built for Sigma Foveon shooters who find Sigma Photo Pro too slow.
+
+- Native X3F decoding (SD9/SD10 through Merrill and Quattro)
+- DNG, CR2, ARW, JPEG and TIFF support
+- Instant preview, smooth zoom & pan, 100% inspection
+- 0–5 star ratings, reject flag, rating filters
+- EXIF panel and live histogram
+- 16-bit TIFF export with exposure, contrast, clarity and noise reduction
+
+![FPS main window](docs/screenshot-main.png)
+
+**Requirements:** Windows 10/11 (64-bit)
+
+## 📢 Coming soon: v1.0.0 — first public release
 
 ## Current Beta Release: v0.9.31.0-beta
-
-<!-- ### 🌟 What's New in This Release: -->
-<!-- * **X3F Post-Processing:** Fixed Sharpen amout settings (previously was not working and fixed to 1.0) -->
-<!-- * **UI Redesign:** Subtle UI changes for better preview area and ergonomics. -->
-<!-- * **Improved Decoding Performance:** Eploiting parallelism for more decoding algorithms. -->
-  
+ 
 ---
 
 ## 🚀 How to Submit Feedback
