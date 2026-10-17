@@ -5,8 +5,9 @@ Welcome to the feedback repository for **FPS**, a high-performance Windows deskt
 This repository is dedicated to tracking **bug reports**, **feature requests**, and **performance feedback**.
 
 ---
+## 📢 Coming soon: First Release: v1.0.0 !
 
-## 📢 Current Beta Release: v0.9.24.0-beta
+## Current Beta Release: v0.9.31.0-beta
 
 <!-- ### 🌟 What's New in This Release: -->
 <!-- * **X3F Post-Processing:** Fixed Sharpen amout settings (previously was not working and fixed to 1.0) -->
