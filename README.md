@@ -22,7 +22,7 @@ built for Sigma Foveon shooters who find Sigma Photo Pro too slow.
 
 **Requirements:** Windows 10/11 (64-bit)
 
-## 📢 Current Release v1.0.0 — first public release
+## 📢 Current Release v1.1.0
  
 ---
 
