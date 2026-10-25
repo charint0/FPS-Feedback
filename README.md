@@ -22,7 +22,13 @@ built for Sigma Foveon shooters who find Sigma Photo Pro too slow.
 
 **Requirements:** Windows 10/11 (64-bit)
 
-## 📢 Current Release v1.2.0
+## 📢 Current Release v1.2.1
+
+Improved
+More reliable license and update checks on unstable connections.
+Added Compare images to context menu.
+
+## Release v1.2.0
 
 New
 Saturation slider in the Export panel. Range 0–10, default 5 (unchanged). Lowering it brings oversaturated and clipped colors back into range before they are cut off, which recovers texture in strong reds, flowers and lights. At 0 the image becomes monochrome at the same brightness.
