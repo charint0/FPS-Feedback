@@ -25,15 +25,19 @@ built for Sigma Foveon shooters who find Sigma Photo Pro too slow.
 ## 📢 Current Release v1.2.1
 
 Improved
+
 More reliable license and update checks on unstable connections.
 Added Compare images to context menu.
 
 ## Release v1.2.0
 
 New
+
 Saturation slider in the Export panel. Range 0–10, default 5 (unchanged). Lowering it brings oversaturated and clipped colors back into range before they are cut off, which recovers texture in strong reds, flowers and lights. At 0 the image becomes monochrome at the same brightness.
 Export presets now store Saturation. Presets saved with earlier versions load with the default value (5).
+
 Improved
+
 SD14 / SD15: cleaner TIFF exports. The small dark speckles in shadows and mid-tones are gone, and noise reduction now works as expected across the whole slider range.
 Merrill (DP1M / DP2M / DP3M, SD1 Merrill): finer detail. Sharpening and micro-contrast are now much closer to Sigma Photo Pro, without halos on edges.
 sd Quattro H: more accurate colors and tones. Reds are rendered more faithfully, and shadows and overall brightness are better aligned with Sigma Photo Pro (checked on a ColorChecker).
