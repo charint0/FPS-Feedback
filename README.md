@@ -22,14 +22,35 @@ built for Sigma Foveon shooters who find Sigma Photo Pro too slow.
 
 **Requirements:** Windows 10/11 (64-bit)
 
-## 📢 Current Release v1.2.1
+## 📢 Current Release v1.3.0
+
+### New
+- **GPU acceleration (OpenCL)** for noise reduction, sharpening and sd/dp Quattro RAW development.
+  Enable or disable it with *Preferences → Use GPU*; the detected graphics card and its status are shown there.
+  If the GPU is not available or fails, FPS falls back to the CPU automatically.
+- **Highlight clipping warning (zebra)**: press **J** (or tick *Zebra (J)*) to show diagonal stripes over blown highlights.
+  For X3F files it is computed from the RAW sensor data, so it shows real sensor saturation;
+  for JPEG, TIFF, DNG and other RAW formats it is based on the displayed image.
+
+### Improved
+- **Blown highlights** on DP Merrill, sd/dp Quattro and early DP1/DP2 files now render as clean, neutral white
+  instead of pink, magenta or grey casts.
+- **Faster shadow noise reduction.**
+- The photo on screen is always processed first: background preloading no longer delays it.
+- Smoother response of the sliders while adjusting the export preview.
+
+### Notes
+- The zebra is shown on the main view only (not yet on the B side of Compare).
+- Keyboard shortcuts (H) and the welcome screen now include the J key.
+
+## Release v1.2.0  
 
 Improved
 
 More reliable license and update checks on unstable connections.
 Added Compare images to context menu.
 
-## Release v1.2.0
+## Release v1.2.1
 
 New
 
