@@ -43,14 +43,14 @@ built for Sigma Foveon shooters who find Sigma Photo Pro too slow.
 - The zebra is shown on the main view only (not yet on the B side of Compare).
 - Keyboard shortcuts (H) and the welcome screen now include the J key.
 
-## Release v1.2.0  
+## Release v1.2.1  
 
 Improved
 
 More reliable license and update checks on unstable connections.
 Added Compare images to context menu.
 
-## Release v1.2.1
+## Release v1.2.0
 
 New
 
