@@ -22,7 +22,16 @@ built for Sigma Foveon shooters who find Sigma Photo Pro too slow.
 
 **Requirements:** Windows 10/11 (64-bit)
 
-## 📢 Current Release v1.3.0
+## 📢 Current Release v1.3.1
+
+### Improved
+- **Zebra in Compare**: the highlight clipping warning (J) is now shown on both images, A and B, at the same time.
+- **View → Highlight Warning (J)**: new menu item to switch the zebra on and off.
+- **Preferences**: while the Export panel is open, the Decoding Options are disabled, since they don't apply to the export preview.
+
+Thanks to Serge for the suggestions.
+
+## Release v1.3.0 
 
 ### New
 - **GPU acceleration (OpenCL)** for noise reduction, sharpening and sd/dp Quattro RAW development.
