@@ -22,7 +22,17 @@ built for Sigma Foveon shooters who find Sigma Photo Pro too slow.
 
 **Requirements:** Windows 10/11 (64-bit)
 
-## 📢 Current Release v1.3.1
+## 📢 Current Release v1.4.0
+
+### New:
+- **Native RAW development and 16-bit TIFF export** for DNG, CR2, CR3, NEF and ARW
+- **NEF and CR3** files are now supported
+- **Faster full-size view for Bayer RAW files** (uses the embedded camera JPEG when native decoding is off)
+
+### Bug Fix:
+- the **Saturation slider** was ignored in single-image export
+
+## Release v1.3.1
 
 ### Improved
 - **Zebra in Compare**: the highlight clipping warning (J) is now shown on both images, A and B, at the same time.
