@@ -31,7 +31,7 @@ built for Sigma Foveon shooters who find Sigma Photo Pro too slow.
   - **Long exposure (ND filter effect)**: average the frames by exposure time for smooth water and clouds (up to 64 frames, memory use stays constant).
   - Automatic alignment for hand-held shots, with local refinement.
   - **Remove ghosts** keeps moving subjects sharp, GPU-accelerated when available.
-  - Works with Sigma X3F/X3I and with Bayer RAW (DNG, CR2, CR3, NEF, ARW).
+  - Works with Sigma X3F/X3I and with Bayer RAW (DNG, CR2, CR3, NEF, PEF, ARW).
 - **Sigma X3I files** (dp/sd Quattro SFD mode) open in the thumbnail strip.
 - **JPEG export** from the Export panel, Export All and the stacking window: adjustable quality, no chroma subsampling, color profile and EXIF embedded.
 
