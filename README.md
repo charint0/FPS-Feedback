@@ -12,11 +12,12 @@ FPS is a fast Windows desktop app for culling and reviewing photos,
 built for Sigma Foveon shooters who find Sigma Photo Pro too slow.
 
 - Native X3F decoding (SD9/SD10 through Merrill and Quattro)
-- DNG, CR2, ARW, JPEG and TIFF support
+- DNG, CR2, CR3, ARW, JPEG, NEF, PEF and TIFF support
 - Instant preview, smooth zoom & pan, 100% inspection
 - 0–5 star ratings, reject flag, rating filters
 - EXIF panel and live histogram
-- 16-bit TIFF export with exposure, contrast, clarity and noise reduction
+- JPEG and 16-bit TIFF export with exposure, contrast, clarity, saturation and noise reduction
+- Stacking select two or more photos (or open an X3I file) and choose File → Stack / HDR Merge
 
 ![FPS main window](docs/screenshot-main.png)
 
