@@ -22,7 +22,28 @@ built for Sigma Foveon shooters who find Sigma Photo Pro too slow.
 
 **Requirements:** Windows 10/11 (64-bit)
 
-## 📢 Current Release v1.4.0
+## 📢 Current Release v2.0.0
+
+### New
+- **Stacking**: select two or more photos (or open an X3I file) and choose File → Stack / HDR Merge.
+  - **HDR / Denoise**: merge bracketed exposures, or average shots at the same exposure to reduce noise (up to 16 frames).
+  - **Long exposure (ND filter effect)**: average the frames by exposure time for smooth water and clouds (up to 64 frames, memory use stays constant).
+  - Automatic alignment for hand-held shots, with local refinement.
+  - **Remove ghosts** keeps moving subjects sharp, GPU-accelerated when available.
+  - Works with Sigma X3F/X3I and with Bayer RAW (DNG, CR2, CR3, NEF, ARW).
+- **Sigma X3I files** (dp/sd Quattro SFD mode) open in the thumbnail strip.
+- **JPEG export** from the Export panel, Export All and the stacking window: adjustable quality, no chroma subsampling, color profile and EXIF embedded.
+
+### Improved
+- sd/dp Quattro: thin red and brown details keep their real color without losing sharpness.
+
+### Licensing
+- 2.0 is a free upgrade: every existing license covers all 1.x and 2.x versions.
+- During the 14-day trial, exported files carry a watermark. It disappears when you activate a license.
+
+Full changelog: https://fastphotosorter.com/changelog
+
+## Release v1.4.0
 
 ### New:
 - **Native RAW development and 16-bit TIFF export** for DNG, CR2, CR3, NEF and ARW
