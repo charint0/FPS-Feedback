@@ -23,7 +23,22 @@ built for Sigma Foveon shooters who find Sigma Photo Pro too slow.
 
 **Requirements:** Windows 10/11 (64-bit)
 
-## 📢 Current Release v2.0.0
+## 📢 Current Release v2.1.0
+
+### New:
+- **Color modes**: the Sigma Photo Pro modes (Standard, Vivid, Neutral, Portrait, Landscape, FOV Classic Blue, Monochrome) plus three FPS looks: Classic Color, Classic BW and Classic BW Soft.
+- **Highlights and Fill Light sliders** in the Export panel.
+- **Camera profiles** for DNG, CR2, CR3, NEF, ARW, NEF and PEF files: FPS uses DCP profiles, found automatically if Adobe software is installed, for much better colour from non-Sigma cameras.
+
+### Bug Fix:
+- Stacking: fixed the yellow cast and blown highlights around bright light sources.
+- SD Quattro H: fixed the pink cast with old firmware.
+  
+### Improved:
+- Faster batch export.
+- SD/DP Quattro: thin red and brown details keep their real color without losing sharpness.
+
+## Release v2.0.0
 
 ### New
 - **Stacking**: select two or more photos (or open an X3I file) and choose File → Stack / HDR Merge.
