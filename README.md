@@ -23,7 +23,22 @@ built for Sigma Foveon shooters who find Sigma Photo Pro too slow.
 
 **Requirements:** Windows 10/11 (64-bit)
 
-## 📢 Current Release v2.1.0
+## 📢 Current Release v2.2.0
+  
+### Improved:
+- **DP Merrill**: more accurate color across the whole frame. Fast Photo Sorter now applies the same lens color-shading correction as Sigma Photo Pro. Before, the corners lost red and the center had a slight magenta tint; colors are now even from edge to edge and match SPP.
+- **DP Merrill**: brightness and shadows matched to Sigma Photo Pro. Shadows and mid-tones are a little brighter, as in SPP, and gray areas in the shadows no longer have a slight green cast. Highlights still keep more detail than in SPP.
+- **Finer texture**. Sharpening no longer mistakes the fine texture of stone, bark and foliage for noise, so it keeps the same crisp, gritty detail you see in Sigma Photo Pro. This applies to all cameras.
+- **Folder tree updates by itself.** Subfolders created, deleted or renamed outside Fast Photo Sorter appear and disappear on their own, and the photo count next to each folder stays up to date.
+- **Camera profiles (DCP):**
+- The EXIF panel shows the profile in use for Bayer RAW files. Hover over it to see which file it comes from, so you can tell an Adobe profile from one of your own.
+- Adding, replacing or deleting a profile in its folder is picked up right away, without restarting. Fast Photo Sorter checks the folders when you open the Export panel and when you come back to the app.
+- Preferences → Camera Profiles: the Fast Photo Sorter profiles folder is always the first in the list, and Open opens the selected folder in Explorer.
+- A link to the Adobe Camera Raw installer, for those who have no Adobe software: it installs the profiles for most cameras. Then click Find Adobe Profiles.
+### Bug Fix:
+- A camera profile deleted from its folder stayed in use until Fast Photo Sorter was restarted.
+
+## Release v2.1.0
 
 ### New:
 - **Color modes**: the Sigma Photo Pro modes (Standard, Vivid, Neutral, Portrait, Landscape, FOV Classic Blue, Monochrome) plus three FPS looks: Classic Color, Classic BW and Classic BW Soft.
