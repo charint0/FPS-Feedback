@@ -23,8 +23,27 @@ built for Sigma Foveon shooters who find Sigma Photo Pro too slow.
 
 **Requirements:** Windows 10/11 (64-bit)
 
-## 📢 Current Release v2.2.0
-  
+## 📢 Current Release v2.3.0
+
+### New
+- **DNG export for Sigma X3F files.** Save a linear DNG and finish it in Lightroom, Camera Raw or another raw editor. White balance, tone and color are done there, starting from the shot's white balance. The DNG includes a preview for Windows Explorer. Works with Export All too.
+- **Texture slider.** Brings out the grain of rock, bark and foliage without adding noise to skies. At 5 it matches Sigma Photo Pro; higher values go further. In the Export panel, the stacking window and presets.
+
+### Improved
+- sd Quattro H with DC lenses (e.g. 17-50mm F2.8 OS): files shot in APS-C crop mode now open and export correctly. Autofocus pixels are corrected across the whole frame.
+- DNG files: brightness now matches Lightroom (BaselineExposure applied).
+- Bayer RAW: LibRaw 0.22.3, faster Fujifilm X-Trans files, faster loading.
+- Camera profiles: Adobe profiles for cameras such as the Fujifilm GFX 100 II are now found.
+- LZW-compressed TIFF files are about 30% smaller.
+- Adde RAF file support
+
+### Fixed
+- Bayer RAW: the Export panel opened with Auto white balance instead of the shot's white balance.
+
+Free update for all license holders.
+
+## Release v2.2.0
+
 ### Improved:
 - **DP Merrill**: more accurate color across the whole frame. Fast Photo Sorter now applies the same lens color-shading correction as Sigma Photo Pro. Before, the corners lost red and the center had a slight magenta tint; colors are now even from edge to edge and match SPP.
 - **DP Merrill**: brightness and shadows matched to Sigma Photo Pro. Shadows and mid-tones are a little brighter, as in SPP, and gray areas in the shadows no longer have a slight green cast. Highlights still keep more detail than in SPP.
