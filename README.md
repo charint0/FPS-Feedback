@@ -19,11 +19,11 @@ built for Sigma Foveon shooters who find Sigma Photo Pro too slow.
 - JPEG and 16-bit TIFF export with exposure, contrast, clarity, saturation and noise reduction
 - Stacking select two or more photos (or open an X3I file) and choose File → Stack / HDR Merge
 
+![FPS main window](docs/screenshot-main.png)
+
  ## Socials: 
  
  https://www.youtube.com/@FastPhotoSorter
-
-![FPS main window](docs/screenshot-main.png)
 
 **Requirements:** Windows 10/11 (64-bit)
 
