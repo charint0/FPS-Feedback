@@ -21,11 +21,11 @@ built for Sigma Foveon shooters who find Sigma Photo Pro too slow.
 
 ![FPS main window](docs/screenshot-main.png)
 
+**Requirements:** Windows 10/11 (64-bit)
+
  ## Socials: 
  
- https://www.youtube.com/@FastPhotoSorter
-
-**Requirements:** Windows 10/11 (64-bit)
+https://www.youtube.com/@FastPhotoSorter
 
 ## 📢 Current Release v2.3.0
 
