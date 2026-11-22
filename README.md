@@ -48,6 +48,43 @@ https://www.youtube.com/@FastPhotoSorter
 Free update for all license holders.
 **Download:** https://fastphotosorter.com/download
 
+## Release 2.4.0
+
+## What's new
+
+### White balance eyedropper
+- In the **Export panel** and in the **stacking window**, click the eyedropper button next to the white balance list (or press **W**), then click something that should be neutral grey or white. **Esc** cancels.
+- If the spot is blown out, too dark or not neutral, a message tells you and you can simply click again.
+- The picked white balance (**Custom (picked)**) belongs to the photo: it is remembered when you come back to it, also after restarting, and the EXIF panel shows **Picked**.
+- **Export All** uses each photo's own picked white balance.
+- **Export presets** can store a picked white balance. It is saved as the camera's white point, so it gives the same neutral on other photos from the same camera model, whatever their shot white balance. On photos from another camera model it is not applied, and a message says so.
+
+### Better X3F decoding
+
+**sd Quattro H**
+- Colors matched to Sigma Photo Pro Standard, calibrated on ColorChecker series and real scenes: richer oranges and yellows, more natural reds, the same hue from shadows to highlights.
+- Cleaner shadows: deep shadows a little brighter as in SPP, no green-yellow cast in near-black areas, no more small dark specks or purple-green blotches in dark areas.
+- Small colored details, such as lettering on signs, keep their color.
+
+**dp Quattro (dp0, dp1, dp2, dp3)**
+- Now developed with the Quattro processing (until now they were treated like DP Merrill files): noise reduction, sharpening and edge handling made for the Quattro sensor, with sharpening tuned for the dp Quattro.
+- Colors matched to Sigma Photo Pro on a ColorChecker: skies no longer purple-blue and over-saturated, richer foliage, dry grass and greens.
+- Even color across the frame: no more pink or magenta drift near the edges and corners (most visible on the dp1 Quattro).
+
+**All Quattro cameras**
+- No more light halos along high-contrast edges (a horizon or a tree against the sky), and fewer white specks next to dark edges such as poles and window frames.
+
+**All cameras**
+- Texture strengthens real detail but no longer the sensor noise, so skies and flat areas stay smoother.
+- With GPU acceleration, sharpening on DP Merrill, older Sigma cameras and Bayer RAW files is now exactly the same as on the CPU (it was slightly softer on the GPU).
+
+## Fixed
+- Export All swapped the Texture and Contrast values.
+
+Thanks to dpreviewblog for the test files and the detailed feedback.
+
+Updates are free for all 1.x and 2.x license holders.
+
 ## Release v2.3.0
 
 ### New
