@@ -27,7 +27,28 @@ built for Sigma Foveon shooters who find Sigma Photo Pro too slow.
  
 https://www.youtube.com/@FastPhotoSorter
 
-## 📢 Current Release v2.3.0
+## 📢 Current Release v2.5.0
+
+### New
+- **Batch** – collect the photos you want to export, from any folder, and export them all at once.
+  - Press **B** (or the **B** button in the toolbar) to add the photo on screen to the batch, or remove it. With marked thumbnails (Ctrl/Shift+click), B adds all of them. Photos in the batch have a purple dot.
+  - Click *N in batch* in the info bar to open the **Batch panel**. Click a file name or use the arrow keys to go to that photo, even in another folder: the strip shows the batch photos, so you can review and adjust them one after another with the Export panel open.
+  - **Export…** opens the Export panel with the batch as the source of *Export All*, with your settings or a preset.
+  - The batch is remembered after closing the app, follows moved or renamed photos, and can be saved as a list.
+- **Straighten** – new slider in the Export panel (−15° to +15°) with automatic crop, plus a **Level** tool: drag along the horizon and the photo is leveled. Applied to TIFF and JPEG, also in *Export All*.
+
+### Improved
+- Exposure, Highlights and Fill Light are now remembered for each photo. *Export All* uses each photo's own adjustments.
+- The EXIF panel shows *Adjusted* for photos with their own settings.
+
+### Fixed
+- The exposure of the previous photo was kept when moving to another photo with the Export panel open.
+- Stacking fix.
+
+Free update for all license holders.
+**Download:** https://fastphotosorter.com/download
+
+## Release v2.3.0
 
 ### New
 - **DNG export for Sigma X3F files.** Save a linear DNG and finish it in Lightroom, Camera Raw or another raw editor. White balance, tone and color are done there, starting from the shot's white balance. The DNG includes a preview for Windows Explorer. Works with Export All too.
