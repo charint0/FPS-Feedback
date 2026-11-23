@@ -27,7 +27,18 @@ built for Sigma Foveon shooters who find Sigma Photo Pro too slow.
  
 https://www.youtube.com/@FastPhotoSorter
 
-## 📢 Current Release v2.5.0
+## 📢 Current Release v2.5.1
+
+Bug-fix release. Recommended for everyone using 2.5.0.
+
+### Fixed
+- **Per-photo adjustments when moving from the Batch panel.** Clicking a file name in the Batch list with the Export panel open showed the new photo but kept the previous photo's Exposure, Highlights, Fill Light and Straighten values. A change made after that could be saved on the previous photo instead of the one on screen. Each photo now shows its own settings, as it already did when using the arrow keys or the thumbnail strip.
+
+[### Changed
+- The Export panel no longer has the "Strip / Batch" choice for Export All. To export the batch, click **Export…** in the Batch panel: the strip shows the batch photos and *Export All* exports them.
+- The free trial now lasts 21 days.]
+
+## Release 2.5.0
 
 ### New
 - **Batch** – collect the photos you want to export, from any folder, and export them all at once.
