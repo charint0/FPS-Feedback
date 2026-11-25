@@ -27,7 +27,40 @@ built for Sigma Foveon shooters who find Sigma Photo Pro too slow.
  
 https://www.youtube.com/@FastPhotoSorter
 
-## 📢 Current Release v2.5.1
+## 📢 Current Release v2.5.2
+
+### New Batch window
+Batch is now its own window (View › Batch Window), replacing the batch options in the Export panel.
+Add photos with B, with Add marked (Ctrl/Shift+click on thumbnails) or with Add all from strip. Remove them with Del.
+The list shows file, folder, rating and settings, and marks the photos that have their own adjustments (picked white balance, exposure, straighten).
+Click a photo to show it in the main window; double-click to open it in the Develop panel.
+Show in strip shows all batch photos in the thumbnail strip, from any folder.
+Choose Each photo's own settings or Same settings for all photos (a preset or the current Develop settings).
+Output: destination folder, Keep folder structure, Skip rejected photos.
+Batches can be saved as lists and loaded again later.
+Convert runs directly from the window, with progress and Stop.
+
+### Highlight / Shadow warning (J)
+
+When browsing, the zebra shows highlights blown in the RAW data.
+In Develop/Export it updates live with the current settings: **highlights clipped** by the adjustments, and blue stripes over **clipped shadows**.
+
+### Full resolution in Export
+
+The Export preview is now computed at **full resolution**: Noise Reduction, Clarity and Texture look exactly as in the exported file. Previously their effect was barely visible at reduced size.
+
+### Viewing
+
+**Clean View** (Tab): full screen with the photo only; rating and navigation keys keep working.
+Improved Full Screen (F11).
+Z toggles between Zoom 100% and Fit, with Fit and 1:1 buttons in the toolbar.
+Keyboard shortcuts are now shown in the menus.
+
+### Thumbnail strip
+
+New RAW only filter next to the rating filters.
+
+## Release 2.5.1
 
 Bug-fix release. Recommended for everyone using 2.5.0.
 
